@@ -13,7 +13,7 @@ def create_project_hash
   html = File.read('fixtures/kickstarter.html')
   kickstarter = Nokogiri::HTML(html)
 
-def create_project_hash
+# def create_project_hash
   projects = {}
 
 # Iterate through the projects
